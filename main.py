@@ -4,7 +4,6 @@ from turtle import Turtle, Screen
 
 
 
-
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     #tim = Turtle(shape="turtle")
@@ -36,6 +35,7 @@ if __name__ == '__main__':
     # screen.onkey(key="d", fun=move_clockwise)
     # screen.onkey(key="c", fun=clear_screen)
     screen.setup(width=500, height=400)
+    screen.title("Welcome to the turtle race!")
     user_bet = screen.textinput(title="make your bet", prompt="Which turtle will win the race? Enter a color: ")
     #tim.penup()
     #tim.goto(x=-230, y=0)
